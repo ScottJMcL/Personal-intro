@@ -1,0 +1,89 @@
+* {
+    background-color: midnightblue;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    font-family:cursive;
+    position: fixed;
+    top: 0px;
+    height: 30px;
+    margin: 0px;
+    background-color: midnightblue;
+}
+
+.navbar-brand {
+    align-self: center;
+    justify-self: left;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    background-color: midnightblue;
+    padding: 10px;
+    gap: 10px;
+}
+
+.intro {
+    background-color: midnightblue;
+    padding: 10px;
+}
+
+.landing-img {
+    width: 250px;
+    height: 250px;
+    padding-top: 50px;
+}
+
+.landing-message {
+    padding-top: 50px;
+    color: antiquewhite;
+    align-self: center;
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.contact-container {
+    margin-bottom: 60px;
+    /* padding-bottom: 200px; */
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    justify-content: center;
+    justify-items: center;
+    margin-left: 20px;
+}
+
+#email_box {
+    background-color: antiquewhite;
+    color: black;
+}
+
+#phone_box {
+    background-color: antiquewhite;
+    color: black;
+}
+
+#message {
+    background-color: antiquewhite;
+    color: black;
+    padding-bottom: 20px;
+}
+
+#continue {
+    background-color: gold;
+    color: black;
+}
+
+#continue:hover {
+    background-color: darkgoldenrod;
+    color: green;
+}

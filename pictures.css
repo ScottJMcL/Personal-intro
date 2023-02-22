@@ -1,0 +1,13 @@
+.pictures {
+    background-color: midnightblue;
+}
+
+img {
+    width: 250px;
+    height: auto;
+}
+
+.button {
+    display: flex;
+    justify-self: right;
+}
